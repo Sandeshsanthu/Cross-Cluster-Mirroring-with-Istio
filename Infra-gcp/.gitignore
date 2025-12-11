@@ -1,0 +1,20 @@
+.terraform/
+
+# .tfstate files and backup
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Ignore IDE/files
+.idea/
+*.swp
+
+# Ignore credentials and GCP configuration, never push these!
+*.json
+*.p12
+*.pem
+
+# Sensitive files
+*.env
