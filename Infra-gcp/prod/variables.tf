@@ -1,5 +1,5 @@
 variable "project_id" {
-  default = "sapient-reducer-477808-m0"
+  default = "project-d1a95002-78b0-493b-b7e"
 }
 
 variable "region" {

@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket         = "terraform-bkp"
+    bucket         = "terraform-bkps"
     prefix         = "istio"
     # Enable state locking with Firestore
   }
